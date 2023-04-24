@@ -1,0 +1,32 @@
+{% extends "base.html.twig" %}
+
+{% block title %}About{% endblock %}
+
+{% block body %}
+    <h1>About</h1>
+    <div class=flex>
+        <article class= article>
+            <p>An image which can be clicked on.</p>
+            <a href="{{ asset('img/glider.svg') }}">
+                <img src="{{ asset('img/glider.svg') }}" alt="">
+            </a>
+
+        </article>
+        <article class= article>
+            <h2>Om kursen</h2>
+
+            <p>
+                I denna kurs ska man fokuser mer på objektorienterade PHP samt
+                klassiska objektorienterade konstruktioner som hanteras tillsammans
+                med objektorienterad programmering i webbaserat ramverk tillsammans
+                med databaser samt enhetstestning.
+                Man ska få en fördjupad förståelse kring verktyg och program
+                som används vid utveckling av webbapplikationer och ramverk
+                inom utvecklingsområden.
+            </p>
+
+            <p><a href="https://github.com/dbwebb-se/mvc.git">Kursrepo Github</a></p>
+            <p><a href="https://github.com/bennepod/mvc.git">Min Github</a></p>
+        </article>
+    </div>
+{% endblock %}

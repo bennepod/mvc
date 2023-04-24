@@ -1,0 +1,124 @@
+/* body {
+    background-image: linear-gradient(rgba(99, 23, 132, 0.839) 1%, rgba(81, 193, 213, 0.919) 20%, rgba(189, 201, 135, 0.919) 95%);
+} */
+
+body {
+    background-image: linear-gradient(rgba(145, 133, 72, 0.839) 1%, rgba(197, 222, 71, 0.919) 20%, rgba(53, 141, 68, 0.919) 95%);
+}
+
+body {
+    margin: 0 auto;
+    min-height: 98vh;
+    font-size: 1.5em;
+}
+
+main {
+    padding-top: 30px;
+    width: 67rem;
+    margin: 0 auto;
+}
+
+h1 {
+    border-bottom: 4px double #ccc;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.site-header {
+    height: 200px;
+    background-size: cover;
+}
+
+.site-title {
+    font-size: 2em;
+    text-align: center;
+}
+
+.image {
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 450px;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.article {
+    /* overflow: auto; */
+    width: 100%;
+    text-align: center;
+}
+
+.article {
+    column-gap: 500px;
+    padding: 50px;
+    display: inline-block;
+}
+
+.time p {
+    font-size: 25px;
+}
+
+.article {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width:1600px;
+    margin: 0 auto;
+}
+
+.aside{
+    text-align: center;
+}
+
+.aside ul{
+    list-style-type: none;
+    line-height: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: transparent;
+    padding-left: 200px;
+}
+
+.aside {
+    color: rgb(8, 7, 7);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.aside a:link{
+    color: black;
+}
+.aside a:visited{
+    color: rgb(104, 98, 98);
+}
+
+.aside a:hover {
+    color: #eae2e2;
+}
